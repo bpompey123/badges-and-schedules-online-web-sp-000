@@ -23,6 +23,6 @@ end
 def printer(attendees)
   array = assign_rooms(attendees)
   array.each do |names|
-    puts names
+    puts "#{names}"
   end
 end
