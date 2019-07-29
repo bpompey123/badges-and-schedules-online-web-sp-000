@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   attender = []
-  badges_and_room_assignments.each do |line|
+  badges_and_room_assignments.each_line do |line|
     attender << line
   end
   attender
