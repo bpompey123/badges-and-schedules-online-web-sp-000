@@ -21,7 +21,7 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attender = assign_rooms
+  attender = assign_rooms(attendees)
   attendees.each do |line|
     attender << line
   end
