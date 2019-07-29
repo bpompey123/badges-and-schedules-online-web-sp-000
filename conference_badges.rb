@@ -21,7 +21,9 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
+  attender = []
   badges_and_room_assignments.each do |line|
-    puts line
+    attender << line
   end
+  attender
 end
