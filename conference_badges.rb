@@ -21,9 +21,10 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attender = assign_rooms(attendees)
-  attendees.each do |line|
-    attender << line
+  array = assign_rooms(attendees)
+  new_array = []
+  array.each do |names|
+    new_array << names
   end
-  attender
+  new_array
 end
